@@ -1,0 +1,47 @@
+
+.container {
+ margin-top: 50px;
+ color: blue;
+}
+form {
+    width:30%;
+    margin: auto;
+    border: 3px solid blue;
+    background-color:yellow;
+    border-radius: 15px;
+    padding: 10px;
+}
+form > label{
+    color:blue;
+    
+}
+div > h4 {
+    text-align: center;
+    margin-bottom: 50px;
+    color: blue;
+}
+div >  {
+    border: 3px solid blue;
+    background-color: blue;
+}
+.btn-align {
+    width: 150px;
+}
+@media only screen and (max-width: 600px) {
+   form{
+            width: 90%;
+
+   }
+  }
+hr {
+
+  margin: 1px;
+  size: 20px;
+  width: auto;
+  background-color: blue;
+  padding: 1px;
+}
+
+.msg{
+   display: none;
+}
